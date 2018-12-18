@@ -1,5 +1,6 @@
 <?php
 
+//导入restapi类
 require_once 'other/restapi.php';
 //导入server层中的类
 $file_name=scandir('server');
