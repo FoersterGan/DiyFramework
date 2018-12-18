@@ -1,22 +1,13 @@
 <?php
 
-spl_autoload_register('load');
-
-function load($class)
+require_once 'other/restapi.php';
+//导入server层中的数据数据
+$file_name=scandir('server');
+foreach ($file_name as $k=>$v)
 {
-
-    $arr_model=['Demos','Indexs'];
-    $arr=explode("\\",$class);
-
-    if($arr[1]=='other')
+    if($v!='.' && $v!='..' && $v!="")
     {
-        require_once 'other/'.$arr[2].'.php';
-    }
-
-    if(in_array($arr[2],$arr_model))
-    {
-
-        require_once 'server/'.$arr[2].'.php';
+        require_once 'server/'.$v;
     }
 }
 
