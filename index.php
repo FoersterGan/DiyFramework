@@ -47,8 +47,7 @@ if($path==null)
 
     if(count($path)>2)
     {
-        echo '请勿进行非法操作';
-        return false;
+        return_array(501,12090,'url请求格式不正确','-1');
     }
     if(class_exists('app\\'.$path[0])){
         $class=$path[0];
@@ -57,12 +56,10 @@ if($path==null)
         if(method_exists($p,$path[1])){
             $method=$path[1];
         }else{
-            echo '方法名不存在';
-            return false;
+            return_array(501,12091,'请求地址错误','-1');
         }
     }else{
-        echo $path[0].'类名不正确';
-        return false;
+        return_array(501,12092,'请求地址错误','-1');
     }
 
 }
