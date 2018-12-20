@@ -1,15 +1,21 @@
 <?php
 
-//导入restapi类
-require_once 'other/restapi.php';
-//导入server层中的类
-$file_name=scandir('server');
-foreach ($file_name as $k=>$v)
+spl_autoload_register('load');
+
+
+function load($class)
 {
-    if($v!='.' && $v!='..' && $v!="")
+    $arr=explode("\\",$class);
+    if($arr[1]=='other')
     {
-        require_once 'server/'.$v;
+        require_once 'other/'.$arr[2].'.php';
     }
+    if(preg_match('/server/',$class))
+    {
+        if($arr[2]!='' && isset($arr[2]))
+        {
+            require_once 'server/'.$arr[2].'.php';
+        }
+    }
+
 }
-
-
