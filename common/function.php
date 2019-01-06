@@ -9,8 +9,8 @@ Logger::configure($path_logger);
 //开启session会话
 session_start();
 
-//加载数据库类
-include_once (dirname(__FILE__).'/databases.php');
+//加载数据库类1
+//include_once (dirname(__FILE__).'/databases.php');
 
 const __XDEBUG = false;
 const __AUTH = false;

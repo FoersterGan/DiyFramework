@@ -30,3 +30,56 @@ Stack trace:
 #1 D:\phpStudy\WWW\echo\index.php(56): app\Index->__construct()
 #2 {main}
   thrown in D:\phpStudy\WWW\echo\controller\Common.class.php on line 39
+[06-Jan-2019 14:37:51 Asia/Shanghai] PHP Warning:  include_once(D:\phpstudy\PHPTutorial\WWW\diyFrame\DiyFramework\common/databases.php): failed to open stream: No such file or directory in D:\phpstudy\PHPTutorial\WWW\diyFrame\DiyFramework\common\function.php on line 13
+[06-Jan-2019 14:37:51 Asia/Shanghai] PHP Warning:  include_once(): Failed opening 'D:\phpstudy\PHPTutorial\WWW\diyFrame\DiyFramework\common/databases.php' for inclusion (include_path='.;C:\php\pear') in D:\phpstudy\PHPTutorial\WWW\diyFrame\DiyFramework\common\function.php on line 13
+[06-Jan-2019 14:37:51 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Call to undefined method app\Login::login() in D:\phpstudy\PHPTutorial\WWW\diyFrame\DiyFramework\index.php:67
+Stack trace:
+#0 {main}
+  thrown in D:\phpstudy\PHPTutorial\WWW\diyFrame\DiyFramework\index.php on line 67
+[06-Jan-2019 14:38:50 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Call to undefined method app\Login::login() in D:\phpstudy\PHPTutorial\WWW\diyFrame\DiyFramework\index.php:67
+Stack trace:
+#0 {main}
+  thrown in D:\phpstudy\PHPTutorial\WWW\diyFrame\DiyFramework\index.php on line 67
+[06-Jan-2019 14:40:45 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Call to protected app\Common::__construct() from invalid context in D:\phpstudy\PHPTutorial\WWW\diyFrame\DiyFramework\index.php:55
+Stack trace:
+#0 {main}
+  thrown in D:\phpstudy\PHPTutorial\WWW\diyFrame\DiyFramework\index.php on line 55
+[06-Jan-2019 14:41:36 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Call to protected app\Common::__construct() from invalid context in D:\phpstudy\PHPTutorial\WWW\diyFrame\DiyFramework\index.php:56
+Stack trace:
+#0 {main}
+  thrown in D:\phpstudy\PHPTutorial\WWW\diyFrame\DiyFramework\index.php on line 56
+[06-Jan-2019 14:42:03 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Call to protected app\Common::__construct() from invalid context in D:\phpstudy\PHPTutorial\WWW\diyFrame\DiyFramework\index.php:55
+Stack trace:
+#0 {main}
+  thrown in D:\phpstudy\PHPTutorial\WWW\diyFrame\DiyFramework\index.php on line 55
+[06-Jan-2019 14:42:22 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Call to protected app\Common::__construct() from invalid context in D:\phpstudy\PHPTutorial\WWW\diyFrame\DiyFramework\index.php:56
+Stack trace:
+#0 {main}
+  thrown in D:\phpstudy\PHPTutorial\WWW\diyFrame\DiyFramework\index.php on line 56
+[06-Jan-2019 14:42:35 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Class 'Demo' not found in D:\phpstudy\PHPTutorial\WWW\diyFrame\DiyFramework\index.php:56
+Stack trace:
+#0 {main}
+  thrown in D:\phpstudy\PHPTutorial\WWW\diyFrame\DiyFramework\index.php on line 56
+[06-Jan-2019 14:42:39 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Call to protected app\Common::__construct() from invalid context in D:\phpstudy\PHPTutorial\WWW\diyFrame\DiyFramework\index.php:56
+Stack trace:
+#0 {main}
+  thrown in D:\phpstudy\PHPTutorial\WWW\diyFrame\DiyFramework\index.php on line 56
+[06-Jan-2019 14:42:54 Asia/Shanghai] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function app\Common::__construct(), 0 passed in D:\phpstudy\PHPTutorial\WWW\diyFrame\DiyFramework\index.php on line 56 and at least 2 expected in D:\phpstudy\PHPTutorial\WWW\diyFrame\DiyFramework\controller\Common.class.php:14
+Stack trace:
+#0 D:\phpstudy\PHPTutorial\WWW\diyFrame\DiyFramework\index.php(56): app\Common->__construct()
+#1 {main}
+  thrown in D:\phpstudy\PHPTutorial\WWW\diyFrame\DiyFramework\controller\Common.class.php on line 14
+[06-Jan-2019 14:43:05 Asia/Shanghai] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function app\Common::__construct(), 0 passed in D:\phpstudy\PHPTutorial\WWW\diyFrame\DiyFramework\index.php on line 55 and at least 2 expected in D:\phpstudy\PHPTutorial\WWW\diyFrame\DiyFramework\controller\Common.class.php:14
+Stack trace:
+#0 D:\phpstudy\PHPTutorial\WWW\diyFrame\DiyFramework\index.php(55): app\Common->__construct()
+#1 {main}
+  thrown in D:\phpstudy\PHPTutorial\WWW\diyFrame\DiyFramework\controller\Common.class.php on line 14
+[06-Jan-2019 14:43:11 Asia/Shanghai] PHP Fatal error:  Uncaught Error: Call to protected app\Common::__construct() from invalid context in D:\phpstudy\PHPTutorial\WWW\diyFrame\DiyFramework\index.php:55
+Stack trace:
+#0 {main}
+  thrown in D:\phpstudy\PHPTutorial\WWW\diyFrame\DiyFramework\index.php on line 55
+[06-Jan-2019 14:43:18 Asia/Shanghai] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function app\Common::__construct(), 0 passed in D:\phpstudy\PHPTutorial\WWW\diyFrame\DiyFramework\index.php on line 55 and at least 2 expected in D:\phpstudy\PHPTutorial\WWW\diyFrame\DiyFramework\controller\Common.class.php:14
+Stack trace:
+#0 D:\phpstudy\PHPTutorial\WWW\diyFrame\DiyFramework\index.php(55): app\Common->__construct()
+#1 {main}
+  thrown in D:\phpstudy\PHPTutorial\WWW\diyFrame\DiyFramework\controller\Common.class.php on line 14
